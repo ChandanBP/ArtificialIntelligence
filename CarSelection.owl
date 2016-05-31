@@ -1,0 +1,893 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY untitled-ontology-9 "http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:untitled-ontology-9="http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#">
+    <Ontology rdf:about="http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#hasAutomaticAC -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-9;hasAutomaticAC"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#hasColor -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-9;hasColor">
+        <rdfs:domain rdf:resource="&untitled-ontology-9;Car"/>
+        <rdfs:range rdf:resource="&untitled-ontology-9;Color"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#hasCoupeBodyStyle -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-9;hasCoupeBodyStyle">
+        <rdfs:domain rdf:resource="&untitled-ontology-9;Car"/>
+        <rdfs:range rdf:resource="&untitled-ontology-9;Coupe"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#hasDieselEngine -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-9;hasDieselEngine">
+        <rdfs:domain rdf:resource="&untitled-ontology-9;Car"/>
+        <rdfs:range rdf:resource="&untitled-ontology-9;DieselEngine"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#hasManualAC -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-9;hasManualAC">
+        <rdfs:domain rdf:resource="&untitled-ontology-9;Car"/>
+        <rdfs:range rdf:resource="&untitled-ontology-9;ManualAC"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#hasPetrolEngine -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-9;hasPetrolEngine">
+        <rdfs:domain rdf:resource="&untitled-ontology-9;Car"/>
+        <rdfs:range rdf:resource="&untitled-ontology-9;PetrolEngine"/>
+    </ObjectProperty>
+    
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#hasSUVBodyStyle -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-9;hasSUVBodyStyle">
+        <rdfs:domain rdf:resource="&untitled-ontology-9;Car"/>
+        <rdfs:range rdf:resource="&untitled-ontology-9;SUV"/>
+    </ObjectProperty>
+    
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#hasSedanBodyStyle -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-9;hasSedanBodyStyle">
+        <rdfs:domain rdf:resource="&untitled-ontology-9;Car"/>
+        <rdfs:range rdf:resource="&untitled-ontology-9;Sedan"/>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#acname -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-9;acname">
+        <rdfs:domain rdf:resource="&untitled-ontology-9;AirConditioner"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#bodystylename -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-9;bodystylename">
+        <rdfs:domain rdf:resource="&untitled-ontology-9;BodyStyle"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#carname -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-9;carname">
+        <rdfs:domain rdf:resource="&untitled-ontology-9;Car"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#color -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-9;color">
+        <rdfs:domain rdf:resource="&untitled-ontology-9;Color"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#engineWeight -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-9;engineWeight">
+        <rdfs:domain rdf:resource="&untitled-ontology-9;Engine"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#enginename -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-9;enginename">
+        <rdfs:domain rdf:resource="&untitled-ontology-9;Engine"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#partnumber -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-9;partnumber">
+        <rdfs:domain rdf:resource="&untitled-ontology-9;Engine"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#AirConditioner -->
+
+    <Class rdf:about="&untitled-ontology-9;AirConditioner"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#Audi -->
+
+    <Class rdf:about="&untitled-ontology-9;Audi">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-9;Car"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#AutomaticAC -->
+
+    <Class rdf:about="&untitled-ontology-9;AutomaticAC">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-9;AirConditioner"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#BMW -->
+
+    <Class rdf:about="&untitled-ontology-9;BMW">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-9;Car"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#Benz -->
+
+    <Class rdf:about="&untitled-ontology-9;Benz">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-9;Car"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#BodyStyle -->
+
+    <Class rdf:about="&untitled-ontology-9;BodyStyle"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#Car -->
+
+    <Class rdf:about="&untitled-ontology-9;Car"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#Chevrolet -->
+
+    <Class rdf:about="&untitled-ontology-9;Chevrolet">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-9;Car"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#Color -->
+
+    <Class rdf:about="&untitled-ontology-9;Color"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#Coupe -->
+
+    <Class rdf:about="&untitled-ontology-9;Coupe">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-9;BodyStyle"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#DarkColor -->
+
+    <Class rdf:about="&untitled-ontology-9;DarkColor">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-9;Color"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#DieselEngine -->
+
+    <Class rdf:about="&untitled-ontology-9;DieselEngine">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-9;Engine"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#Engine -->
+
+    <Class rdf:about="&untitled-ontology-9;Engine"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#Ford -->
+
+    <Class rdf:about="&untitled-ontology-9;Ford">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-9;Car"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#Honda -->
+
+    <Class rdf:about="&untitled-ontology-9;Honda">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-9;Car"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#LightColor -->
+
+    <Class rdf:about="&untitled-ontology-9;LightColor">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-9;Color"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#ManualAC -->
+
+    <Class rdf:about="&untitled-ontology-9;ManualAC">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-9;AirConditioner"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#PetrolEngine -->
+
+    <Class rdf:about="&untitled-ontology-9;PetrolEngine">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-9;Engine"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#SUV -->
+
+    <Class rdf:about="&untitled-ontology-9;SUV">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-9;BodyStyle"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#Sedan -->
+
+    <Class rdf:about="&untitled-ontology-9;Sedan">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-9;BodyStyle"/>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#A1 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;A1">
+        <rdf:type rdf:resource="&untitled-ontology-9;AutomaticAC"/>
+        <untitled-ontology-9:acname rdf:datatype="&xsd;string">autoAC1</untitled-ontology-9:acname>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#A2 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;A2">
+        <rdf:type rdf:resource="&untitled-ontology-9;AutomaticAC"/>
+        <untitled-ontology-9:acname rdf:datatype="&xsd;string">autoAC2</untitled-ontology-9:acname>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#AL1 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;AL1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#AL2 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;AL2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#AMT_335g-96 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;AMT_335g-96">
+        <rdf:type rdf:resource="&untitled-ontology-9;DieselEngine"/>
+        <untitled-ontology-9:engineWeight rdf:datatype="&xsd;int">10</untitled-ontology-9:engineWeight>
+        <untitled-ontology-9:partnumber rdf:datatype="&xsd;string">335G-96</untitled-ontology-9:partnumber>
+        <untitled-ontology-9:enginename rdf:datatype="&xsd;string">AMT</untitled-ontology-9:enginename>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#Accord -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;Accord">
+        <rdf:type rdf:resource="&untitled-ontology-9;Honda"/>
+        <untitled-ontology-9:hasDieselEngine rdf:resource="&untitled-ontology-9;GX35"/>
+        <untitled-ontology-9:hasColor rdf:resource="&untitled-ontology-9;Green"/>
+        <untitled-ontology-9:hasManualAC rdf:resource="&untitled-ontology-9;M1"/>
+        <untitled-ontology-9:hasSUVBodyStyle rdf:resource="&untitled-ontology-9;SUV2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#AudiA1 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;AudiA1">
+        <rdf:type rdf:resource="&untitled-ontology-9;Audi"/>
+        <untitled-ontology-9:hasAutomaticAC rdf:resource="&untitled-ontology-9;A2"/>
+        <untitled-ontology-9:hasColor rdf:resource="&untitled-ontology-9;Cyan"/>
+        <untitled-ontology-9:hasPetrolEngine rdf:resource="&untitled-ontology-9;LT390Q1"/>
+        <untitled-ontology-9:hasSUVBodyStyle rdf:resource="&untitled-ontology-9;SUV1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#AudiA2 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;AudiA2">
+        <rdf:type rdf:resource="&untitled-ontology-9;Audi"/>
+        <untitled-ontology-9:hasPetrolEngine rdf:resource="&untitled-ontology-9;GX240"/>
+        <untitled-ontology-9:hasManualAC rdf:resource="&untitled-ontology-9;M2"/>
+        <untitled-ontology-9:hasColor rdf:resource="&untitled-ontology-9;Orange"/>
+        <untitled-ontology-9:hasSUVBodyStyle rdf:resource="&untitled-ontology-9;SUV2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#AudiA3 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;AudiA3">
+        <rdf:type rdf:resource="&untitled-ontology-9;Audi"/>
+        <untitled-ontology-9:carname rdf:datatype="&xsd;string">SportBack</untitled-ontology-9:carname>
+        <untitled-ontology-9:hasAutomaticAC rdf:resource="&untitled-ontology-9;A1"/>
+        <untitled-ontology-9:hasCoupeBodyStyle rdf:resource="&untitled-ontology-9;FTypeR"/>
+        <untitled-ontology-9:hasPetrolEngine rdf:resource="&untitled-ontology-9;GX240"/>
+        <untitled-ontology-9:hasColor rdf:resource="&untitled-ontology-9;Red"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#AudiS3 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;AudiS3">
+        <rdf:type rdf:resource="&untitled-ontology-9;Audi"/>
+        <untitled-ontology-9:hasAutomaticAC rdf:resource="&untitled-ontology-9;A2"/>
+        <untitled-ontology-9:hasSedanBodyStyle rdf:resource="&untitled-ontology-9;FastBack"/>
+        <untitled-ontology-9:hasPetrolEngine rdf:resource="&untitled-ontology-9;LIF152S"/>
+        <untitled-ontology-9:hasColor rdf:resource="&untitled-ontology-9;Red"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#BMW501 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;BMW501">
+        <rdf:type rdf:resource="&untitled-ontology-9;BMW"/>
+        <untitled-ontology-9:hasDieselEngine rdf:resource="&untitled-ontology-9;AMT_335g-96"/>
+        <untitled-ontology-9:hasColor rdf:resource="&untitled-ontology-9;Blue"/>
+        <untitled-ontology-9:hasManualAC rdf:resource="&untitled-ontology-9;M2"/>
+        <untitled-ontology-9:hasSedanBodyStyle rdf:resource="&untitled-ontology-9;NotchBack"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#BMW502 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;BMW502">
+        <rdf:type rdf:resource="&untitled-ontology-9;BMW"/>
+        <untitled-ontology-9:hasSedanBodyStyle rdf:resource="&untitled-ontology-9;FastBack"/>
+        <untitled-ontology-9:hasDieselEngine rdf:resource="&untitled-ontology-9;GX35"/>
+        <untitled-ontology-9:hasColor rdf:resource="&untitled-ontology-9;Green"/>
+        <untitled-ontology-9:hasManualAC rdf:resource="&untitled-ontology-9;M1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#Blue -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;Blue">
+        <rdf:type rdf:resource="&untitled-ontology-9;DarkColor"/>
+        <untitled-ontology-9:color rdf:datatype="&xsd;string">DukeBlue</untitled-ontology-9:color>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#Brown -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;Brown">
+        <rdf:type rdf:resource="&untitled-ontology-9;DarkColor"/>
+        <untitled-ontology-9:color rdf:datatype="&xsd;string">Beige</untitled-ontology-9:color>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#Civic_Sport -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;Civic_Sport">
+        <rdf:type rdf:resource="&untitled-ontology-9;Honda"/>
+        <untitled-ontology-9:hasAutomaticAC rdf:resource="&untitled-ontology-9;A1"/>
+        <untitled-ontology-9:hasColor rdf:resource="&untitled-ontology-9;Cyan"/>
+        <untitled-ontology-9:hasCoupeBodyStyle rdf:resource="&untitled-ontology-9;FTypeR"/>
+        <untitled-ontology-9:hasPetrolEngine rdf:resource="&untitled-ontology-9;LT270Q1E"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#Cruze -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;Cruze">
+        <rdf:type rdf:resource="&untitled-ontology-9;Chevrolet"/>
+        <untitled-ontology-9:hasAutomaticAC rdf:resource="&untitled-ontology-9;A2"/>
+        <untitled-ontology-9:hasSedanBodyStyle rdf:resource="&untitled-ontology-9;FastBack"/>
+        <untitled-ontology-9:hasPetrolEngine rdf:resource="&untitled-ontology-9;GX240"/>
+        <untitled-ontology-9:hasColor rdf:resource="&untitled-ontology-9;Red"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#Cyan -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;Cyan">
+        <rdf:type rdf:resource="&untitled-ontology-9;LightColor"/>
+        <untitled-ontology-9:color rdf:datatype="&xsd;string">AeroBlue</untitled-ontology-9:color>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#Ef1000is -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;Ef1000is">
+        <rdf:type rdf:resource="&untitled-ontology-9;DieselEngine"/>
+        <untitled-ontology-9:engineWeight rdf:datatype="&xsd;int">12</untitled-ontology-9:engineWeight>
+        <untitled-ontology-9:enginename rdf:datatype="&xsd;string">EFSeries</untitled-ontology-9:enginename>
+        <untitled-ontology-9:partnumber rdf:datatype="&xsd;string">FX100</untitled-ontology-9:partnumber>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#FTypeR -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;FTypeR">
+        <rdf:type rdf:resource="&untitled-ontology-9;Coupe"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#FTypeS -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;FTypeS">
+        <rdf:type rdf:resource="&untitled-ontology-9;Coupe"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#Fabric -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;Fabric"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#FastBack -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;FastBack">
+        <rdf:type rdf:resource="&untitled-ontology-9;Sedan"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#Fiesta -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;Fiesta">
+        <rdf:type rdf:resource="&untitled-ontology-9;Ford"/>
+        <untitled-ontology-9:hasCoupeBodyStyle rdf:resource="&untitled-ontology-9;FTypeS"/>
+        <untitled-ontology-9:hasDieselEngine rdf:resource="&untitled-ontology-9;GX35"/>
+        <untitled-ontology-9:hasManualAC rdf:resource="&untitled-ontology-9;M2"/>
+        <untitled-ontology-9:hasColor rdf:resource="&untitled-ontology-9;Orange"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#GX240 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;GX240">
+        <rdf:type rdf:resource="&untitled-ontology-9;PetrolEngine"/>
+        <untitled-ontology-9:engineWeight rdf:datatype="&xsd;int">8</untitled-ontology-9:engineWeight>
+        <untitled-ontology-9:partnumber rdf:datatype="&xsd;string">DY200C</untitled-ontology-9:partnumber>
+        <untitled-ontology-9:enginename rdf:datatype="&xsd;string">gx240</untitled-ontology-9:enginename>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#GX35 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;GX35">
+        <rdf:type rdf:resource="&untitled-ontology-9;DieselEngine"/>
+        <untitled-ontology-9:engineWeight rdf:datatype="&xsd;int">15</untitled-ontology-9:engineWeight>
+        <untitled-ontology-9:partnumber rdf:datatype="&xsd;string">AD250</untitled-ontology-9:partnumber>
+        <untitled-ontology-9:enginename rdf:datatype="&xsd;string">GX</untitled-ontology-9:enginename>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#Glass -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;Glass"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#Green -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;Green">
+        <rdf:type rdf:resource="&untitled-ontology-9;LightColor"/>
+        <untitled-ontology-9:color rdf:datatype="&xsd;string">LawnGreen</untitled-ontology-9:color>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#HM1 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;HM1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#HM2 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;HM2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#HM3 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;HM3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#HP1 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;HP1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#HP2 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;HP2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#HP3 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;HP3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#HP_BF5AK3SA -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;HP_BF5AK3SA">
+        <rdf:type rdf:resource="&untitled-ontology-9;DieselEngine"/>
+        <untitled-ontology-9:engineWeight rdf:datatype="&xsd;int">20</untitled-ontology-9:engineWeight>
+        <untitled-ontology-9:partnumber rdf:datatype="&xsd;string">DX135C</untitled-ontology-9:partnumber>
+        <untitled-ontology-9:enginename rdf:datatype="&xsd;string">HP</untitled-ontology-9:enginename>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#Ikon -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;Ikon">
+        <rdf:type rdf:resource="&untitled-ontology-9;Ford"/>
+        <untitled-ontology-9:hasPetrolEngine rdf:resource="&untitled-ontology-9;GX240"/>
+        <untitled-ontology-9:hasManualAC rdf:resource="&untitled-ontology-9;M1"/>
+        <untitled-ontology-9:hasColor rdf:resource="&untitled-ontology-9;Red"/>
+        <untitled-ontology-9:hasSUVBodyStyle rdf:resource="&untitled-ontology-9;SUV2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#LIF152S -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;LIF152S">
+        <rdf:type rdf:resource="&untitled-ontology-9;PetrolEngine"/>
+        <untitled-ontology-9:engineWeight rdf:datatype="&xsd;int">18</untitled-ontology-9:engineWeight>
+        <untitled-ontology-9:partnumber rdf:datatype="&xsd;string">AB96D</untitled-ontology-9:partnumber>
+        <untitled-ontology-9:enginename rdf:datatype="&xsd;string">LIF</untitled-ontology-9:enginename>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#LM1 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;LM1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#LM2 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;LM2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#LM3 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;LM3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#LP1 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;LP1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#LP2 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;LP2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#LP3 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;LP3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#LT200Q1 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;LT200Q1">
+        <rdf:type rdf:resource="&untitled-ontology-9;PetrolEngine"/>
+        <untitled-ontology-9:engineWeight rdf:datatype="&xsd;int">13</untitled-ontology-9:engineWeight>
+        <untitled-ontology-9:enginename rdf:datatype="&xsd;string">LT200Q1</untitled-ontology-9:enginename>
+        <untitled-ontology-9:partnumber rdf:datatype="&xsd;string">UT2500</untitled-ontology-9:partnumber>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#LT270Q1E -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;LT270Q1E">
+        <rdf:type rdf:resource="&untitled-ontology-9;PetrolEngine"/>
+        <untitled-ontology-9:engineWeight rdf:datatype="&xsd;int">19</untitled-ontology-9:engineWeight>
+        <untitled-ontology-9:enginename rdf:datatype="&xsd;string">LT270</untitled-ontology-9:enginename>
+        <untitled-ontology-9:partnumber rdf:datatype="&xsd;string">RX135</untitled-ontology-9:partnumber>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#LT390Q1 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;LT390Q1">
+        <rdf:type rdf:resource="&untitled-ontology-9;PetrolEngine"/>
+        <untitled-ontology-9:engineWeight rdf:datatype="&xsd;int">10</untitled-ontology-9:engineWeight>
+        <untitled-ontology-9:enginename rdf:datatype="&xsd;string">LT390</untitled-ontology-9:enginename>
+        <untitled-ontology-9:partnumber rdf:datatype="&xsd;string">UID6301</untitled-ontology-9:partnumber>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#M1 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;M1">
+        <rdf:type rdf:resource="&untitled-ontology-9;ManualAC"/>
+        <untitled-ontology-9:acname rdf:datatype="&xsd;string">manualAC1</untitled-ontology-9:acname>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#M2 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;M2">
+        <rdf:type rdf:resource="&untitled-ontology-9;ManualAC"/>
+        <untitled-ontology-9:acname rdf:datatype="&xsd;string">manualAC2</untitled-ontology-9:acname>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#MAYBACH_S600 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;MAYBACH_S600">
+        <rdf:type rdf:resource="&untitled-ontology-9;Benz"/>
+        <untitled-ontology-9:hasAutomaticAC rdf:resource="&untitled-ontology-9;A1"/>
+        <untitled-ontology-9:hasPetrolEngine rdf:resource="&untitled-ontology-9;LT200Q1"/>
+        <untitled-ontology-9:hasSedanBodyStyle rdf:resource="&untitled-ontology-9;NotchBack"/>
+        <untitled-ontology-9:hasColor rdf:resource="&untitled-ontology-9;White"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#MM1 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;MM1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#MM2 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;MM2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#MM3 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;MM3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#MP1 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;MP1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#MP2 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;MP2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#MP3 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;MP3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#Malibu -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;Malibu">
+        <rdf:type rdf:resource="&untitled-ontology-9;Chevrolet"/>
+        <untitled-ontology-9:hasAutomaticAC rdf:resource="&untitled-ontology-9;A2"/>
+        <untitled-ontology-9:hasDieselEngine rdf:resource="&untitled-ontology-9;AMT_335g-96"/>
+        <untitled-ontology-9:hasColor rdf:resource="&untitled-ontology-9;Blue"/>
+        <untitled-ontology-9:hasSedanBodyStyle rdf:resource="&untitled-ontology-9;FastBack"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#Mercedes_AMG -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;Mercedes_AMG">
+        <rdf:type rdf:resource="&untitled-ontology-9;Benz"/>
+        <untitled-ontology-9:hasColor rdf:resource="&untitled-ontology-9;Brown"/>
+        <untitled-ontology-9:hasCoupeBodyStyle rdf:resource="&untitled-ontology-9;FTypeS"/>
+        <untitled-ontology-9:hasPetrolEngine rdf:resource="&untitled-ontology-9;LT270Q1E"/>
+        <untitled-ontology-9:hasManualAC rdf:resource="&untitled-ontology-9;M2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#NotchBack -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;NotchBack">
+        <rdf:type rdf:resource="&untitled-ontology-9;Sedan"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#Orange -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;Orange">
+        <rdf:type rdf:resource="&untitled-ontology-9;DarkColor"/>
+        <untitled-ontology-9:color rdf:datatype="&xsd;string">alloyOrange</untitled-ontology-9:color>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#Red -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;Red">
+        <rdf:type rdf:resource="&untitled-ontology-9;DarkColor"/>
+        <untitled-ontology-9:color rdf:datatype="&xsd;string">Red</untitled-ontology-9:color>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#SUV1 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;SUV1">
+        <rdf:type rdf:resource="&untitled-ontology-9;SUV"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#SUV2 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;SUV2">
+        <rdf:type rdf:resource="&untitled-ontology-9;SUV"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chandan/ontologies/2014/10/untitled-ontology-9#White -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-9;White">
+        <rdf:type rdf:resource="&untitled-ontology-9;LightColor"/>
+        <untitled-ontology-9:color rdf:datatype="&xsd;string">white</untitled-ontology-9:color>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
